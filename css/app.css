@@ -276,11 +276,9 @@ footer a {
     justify-content: space-between;
     gap: 40px;
   }
-  header .right .logo {
-    width: 200px;
-  }
   header .right .logo img {
     width: 100%;
+    height: 40px;
   }
   header .right .call-us-mobile {
     display: flex;
@@ -300,6 +298,7 @@ footer a {
   }
   .slider .left h2 {
     font-size: 12px;
+    text-align: center;
   }
   .slider .left h3 {
     text-align: center;
@@ -385,4 +384,7 @@ footer a {
     justify-content: center;
     align-items: center;
   }
+}
+.wp-block-heading {
+  color: #002792;
 }/*# sourceMappingURL=app.css.map */
